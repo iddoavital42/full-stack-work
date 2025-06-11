@@ -1,14 +1,14 @@
-import { useState } from 'react'
- import ProductManager from './Components/ProductManager'
+ import ContactForm from "./Components/ContactForm";
+import Dashboard from "./Components/Dashboard";
 
 function App() {
- 
-
   return (
     <>
-     <ProductManager/>
+      <ContactForm />
+      <hr />
+      <Dashboard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
